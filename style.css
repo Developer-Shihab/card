@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient( to bottom right, #49ED10,#10BCED,#10BCED,#10BCED);
+
+
+}
+
+header{
+	text-align: center;
+	padding: 50px;
+	color: white;
+	font-weight: bolder;
+}
+header p{
+	padding: 15px;
+	padding-bottom: 50px;
+	opacity: 0.9
+	
+	
+}
+
+h1{
+	text-shadow: 10px 9px 4px green;
+	font-size: 30px;
+
+}
+
+.row{
+	
+	text-align: center;
+}
+
+ .col{
+	background-color: #fff;
+	height: auto;
+	width: 30%;
+	display: inline-block;
+	position: relative;
+	outline: 2px red;
+	border: 1px solid green;box-shadow: 10px 10px 12px ;
+	transition: 1s
+}
+
+.col:hover{
+	transform: scale(1.1);
+	border: 3px solid salmon;
+}
+
+.col-head{
+	text-align: center;
+	padding: 30px;
+	margin-top: 50px;
+}
+
+.col-body p{
+			padding: 10px;
+
+}
+
+.img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: -170px;
+	
+	
+	
+
+}
+img{
+	height: 100px;
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 15px;
+
+
+}
+img:hover{
+	transform: rotate(360deg);
+	transition: 2s;
+}
+
+.row .col:nth-child(2){
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.row .col:nth-child(1){
+		background: linear-gradient(to bottom right, #49ED10, #fff, #fff,#fff,#fff,#fff)
+	}
+
+	span{
+		color: grey;
+		opacity: 0.8;
+	}
+
+	footer{
+	padding: 30px;
+	font-size: 20px;
+	
+
+}
+footer i{
+	background: #10EDC1;
+	padding: 10px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 15px;
+
+}
+
+footer i:hover{
+	color:  #10EDC1;
+	background:black;
+	transform: rotate(360deg);
+	transition: 1s;
+	box-shadow: 0px 5px 5px #10EDC1, 5px 0px 5px red, -5px 0px 5px green, 0px -5px 5px yellow;
+}
+
+
+
+
+
+
+.sec2{
+	height: auto;
+	width: 100%;
+	background: white;
+}
+.row2{
+	display: flex;
+}
+.col1{
+	width: 35%;
+	background-color: rgba(241, 236, 236, 1);
+}
+
+.col2{
+	width: 65%;
+	background-color: rgba(241, 236, 236, 1);
+
+
+}
+
+.img2{
+	height: 250px;
+	width: 250px;
+	padding: 20px;
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.img2:hover{
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+
+}
+.col2 span{
+		display: block;
+	text-align: center; 
+}
+
+h3{
+
+	text-align: center;
+	padding: 10px;
+}
